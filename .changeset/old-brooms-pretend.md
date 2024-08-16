@@ -1,5 +1,0 @@
----
-"@ylfjuk/biome": patch
----
-
-init
