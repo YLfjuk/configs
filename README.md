@@ -1,3 +1,9 @@
-# template-monorepo
+# @ylfjuk/configs
 
-This is a template for creating monorepo projects
+Base configs for @YLfjuk projects
+
+## Configs
+
+## License
+
+MIT [@YLfjuk](https://github.com/YLfjuk)
