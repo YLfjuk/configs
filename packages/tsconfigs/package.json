@@ -16,6 +16,7 @@
         "tsconfig"
     ],
     "exports": {
+        ".": "./tsconfig.json",
         "./base": "./tsconfig.base.json",
         "./lib": "./tsconfig.lib.json",
         "./test": "./tsconfig.test.json"
