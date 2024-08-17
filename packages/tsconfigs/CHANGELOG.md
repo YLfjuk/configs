@@ -1,5 +1,11 @@
 # @ylfjuk/tsconfigs
 
+## 0.0.4
+
+### Patch Changes
+
+- Added exports paths
+
 ## 0.0.3
 
 ### Patch Changes

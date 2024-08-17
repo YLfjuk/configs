@@ -1,6 +1,6 @@
 {
     "name": "@ylfjuk/md",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "author": "YLfjuk",
     "type": "module",
     "license": "MIT",
@@ -8,6 +8,9 @@
         "type": "git",
         "url": "git+https://github.com/YLfjuk/configs.git",
         "directory": "packages/md"
+    },
+    "exports": {
+        ".": "./markdownlint.json"
     },
     "keywords": [
         "ylfjuk",

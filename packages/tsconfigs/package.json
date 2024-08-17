@@ -1,6 +1,6 @@
 {
     "name": "@ylfjuk/tsconfigs",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "author": "YLfjuk",
     "type": "module",
     "license": "MIT",
@@ -15,6 +15,11 @@
         "typescript",
         "tsconfig"
     ],
+    "exports": {
+        "./base": "./tsconfig.base.json",
+        "./lib": "./tsconfig.lib.json",
+        "./test": "./tsconfig.test.json"
+    },
     "scripts": {
         "test": "tsc --project tsconfig.test.json"
     },
