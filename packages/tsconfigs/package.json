@@ -1,0 +1,27 @@
+{
+    "name": "@ylfjuk/tsconfigs",
+    "version": "0.0.0",
+    "author": "YLfjuk",
+    "type": "module",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/YLfjuk/configs.git",
+        "directory": "packages/tsconfigs"
+    },
+    "keywords": [
+        "ylfjuk",
+        "config",
+        "typescript",
+        "tsconfig"
+    ],
+    "scripts": {
+        "test": "tsc --project tsconfig.test.json"
+    },
+    "devDependencies": {
+        "typescript": "^5.5.4"
+    },
+    "peerDependencies": {
+        "typescript": "^5.5.4"
+    }
+}
