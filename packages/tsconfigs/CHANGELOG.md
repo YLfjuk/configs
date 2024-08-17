@@ -1,5 +1,11 @@
 # @ylfjuk/tsconfigs
 
+## 0.0.3
+
+### Patch Changes
+
+- fix: "Option 'allowJs' cannot be specified with option 'isolatedDeclarations'"
+
 ## 0.0.2
 
 ### Patch Changes
