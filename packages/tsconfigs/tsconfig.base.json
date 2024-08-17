@@ -4,17 +4,23 @@
         "module": "ESNext",
         "lib": ["ES2020"],
 
+        "esModuleInterop": true,
         "isolatedModules": true,
         "skipLibCheck": true,
         "allowJs": true,
         "strict": true,
 
+        "forceConsistentCasingInFileNames": true,
         "noFallthroughCasesInSwitch": true,
+        "useUnknownInCatchVariables": true,
         "noUncheckedIndexedAccess": true,
         "allowUnreachableCode": false,
         "verbatimModuleSyntax": true,
         "noImplicitOverride": true,
         "allowUnusedLabels": false,
+        "noUnusedParameters": true,
+        "noUnusedLocals": true,
+        "noImplicitAny": true
 
         // "exactOptionalPropertyTypes": true,
     }
