@@ -1,5 +1,11 @@
 # @ylfjuk/tsconfigs
 
+## 0.0.5
+
+### Patch Changes
+
+- removed target, module & lib options
+
 ## 0.0.4
 
 ### Patch Changes

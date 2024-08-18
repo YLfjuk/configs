@@ -18,7 +18,7 @@
         ".": "./biome.json"
     },
     "scripts": {
-        "lint": "npx @biomejs/biome check --write tests"
+        "lint": "npx @biomejs/biome check --no-errors-on-unmatched --write tests"
     },
     "devDependencies": {
         "@biomejs/biome": "^1.8.3",
