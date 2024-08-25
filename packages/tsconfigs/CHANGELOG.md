@@ -1,5 +1,11 @@
 # @ylfjuk/tsconfigs
 
+## 0.0.6
+
+### Patch Changes
+
+- Fix issues with verbatim flag
+
 ## 0.0.5
 
 ### Patch Changes
