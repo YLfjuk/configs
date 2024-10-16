@@ -25,7 +25,7 @@
         "test": "tsc --project tsconfig.test.json"
     },
     "devDependencies": {
-        "typescript": "^5.5.4"
+        "typescript": "^5.6.3"
     },
     "peerDependencies": {
         "typescript": "^5.5.4"

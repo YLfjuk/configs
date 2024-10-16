@@ -20,11 +20,11 @@
     },
     "devDependencies": {
         "@changesets/changelog-github": "^0.5.0",
-        "@changesets/cli": "^2.27.7",
+        "@changesets/cli": "^2.27.9",
         "@ylfjuk/md": "*",
-        "turbo": "^2.0.11"
+        "turbo": "^2.1.3"
     },
-    "packageManager": "npm@10.8.1",
+    "packageManager": "npm@10.9.0",
     "workspaces": [
         "apps/*",
         "packages/*"
