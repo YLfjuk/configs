@@ -1,6 +1,6 @@
 {
     "name": "@ylfjuk/md",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "author": "YLfjuk",
     "type": "module",
     "license": "MIT",
@@ -10,7 +10,7 @@
         "directory": "packages/md"
     },
     "exports": {
-        ".": "./markdownlint.json"
+        ".": "./.markdownlint.json"
     },
     "keywords": [
         "ylfjuk",
