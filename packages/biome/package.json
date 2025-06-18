@@ -1,6 +1,6 @@
 {
     "name": "@ylfjuk/biome",
-    "version": "0.0.3",
+    "version": "0.1.0",
     "author": "YLfjuk",
     "type": "module",
     "license": "MIT",
@@ -21,7 +21,7 @@
         "lint": "npx @biomejs/biome check --no-errors-on-unmatched --write tests"
     },
     "devDependencies": {
-        "@biomejs/biome": "^1.9.3",
+        "@biomejs/biome": "^2.0.0",
         "typescript": "^5.8.2"
     },
     "peerDependencies": {

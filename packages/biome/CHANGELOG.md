@@ -1,5 +1,11 @@
 # @ylfjuk/biome
 
+## 0.1.0
+
+### Minor Changes
+
+- Updated to biome@v2
+
 ## 0.0.3
 
 ### Patch Changes
