@@ -1,6 +1,6 @@
 {
     "name": "@ylfjuk/biome",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "author": "YLfjuk",
     "type": "module",
     "license": "MIT",
@@ -25,6 +25,6 @@
         "typescript": "^5.8.2"
     },
     "peerDependencies": {
-        "@biomejs/biome": "^1.9.3"
+        "@biomejs/biome": "^2.0.0"
     }
 }

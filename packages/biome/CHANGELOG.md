@@ -1,5 +1,11 @@
 # @ylfjuk/biome
 
+## 0.1.1
+
+### Patch Changes
+
+- Override "useImportType" style option to "separatedType"
+
 ## 0.1.0
 
 ### Minor Changes
