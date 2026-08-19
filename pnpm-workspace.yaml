@@ -1,0 +1,5 @@
+packages:
+    - packages/*
+minimumReleaseAgeExclude:
+    - "@publint/pack@0.1.7"
+    - publint@0.3.24

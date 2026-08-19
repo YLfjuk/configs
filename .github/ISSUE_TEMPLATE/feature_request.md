@@ -1,10 +1,9 @@
 ---
 name: Feature request
 about: Suggest an idea for this project
-title: ''
-labels: ''
+title: ""
+labels: ""
 assignees: YLfjuk
-
 ---
 
 **Is your feature request related to a specific package? Please specify.**
