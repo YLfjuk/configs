@@ -1,33 +1,34 @@
 {
-    "name": "@ylfjuk/tsconfigs",
-    "version": "0.0.6",
-    "author": "YLfjuk",
-    "type": "module",
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/YLfjuk/configs.git",
-        "directory": "packages/tsconfigs"
-    },
-    "keywords": [
-        "ylfjuk",
-        "config",
-        "typescript",
-        "tsconfig"
-    ],
-    "exports": {
-        ".": "./tsconfig.json",
-        "./base": "./tsconfig.base.json",
-        "./lib": "./tsconfig.lib.json",
-        "./test": "./tsconfig.test.json"
-    },
-    "scripts": {
-        "test": "tsc --project tsconfig.test.json"
-    },
-    "devDependencies": {
-        "typescript": "^5.8.3"
-    },
-    "peerDependencies": {
-        "typescript": "^5.5.4"
-    }
+	"name": "@ylfjuk/tsconfigs",
+	"version": "0.1.0",
+	"keywords": [
+		"config",
+		"tsconfig",
+		"typescript",
+		"ylfjuk"
+	],
+	"license": "MIT",
+	"author": "YLfjuk",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/YLfjuk/configs.git",
+		"directory": "packages/tsconfigs"
+	},
+	"type": "module",
+	"exports": {
+		".": "./tsconfig.json",
+		"./base": "./tsconfig.base.json",
+		"./lib": "./tsconfig.lib.json",
+		"./test": "./tsconfig.test.json"
+	},
+	"scripts": {
+		"test": "tsc --project tests/tsconfig.json",
+		"test:types": "tsc --project tests/tsconfig.json"
+	},
+	"devDependencies": {
+		"typescript": "7.0.2"
+	},
+	"peerDependencies": {
+		"typescript": "^7.0.2"
+	}
 }

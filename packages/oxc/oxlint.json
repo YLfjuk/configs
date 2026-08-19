@@ -1,0 +1,13 @@
+{
+	"categories": {
+		"correctness": "error"
+	},
+	"rules": {
+		"typescript/consistent-type-imports": [
+			"error",
+			{
+				"fixStyle": "separate-type-imports"
+			}
+		]
+	}
+}

@@ -1,28 +1,28 @@
 {
-    "name": "@ylfjuk/prettier",
-    "version": "0.0.1",
-    "author": "YLfjuk",
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/YLfjuk/configs.git",
-        "directory": "packages/prettier"
-    },
-    "exports": {
-        ".": "./prettier.config.mjs"
-    },
-    "keywords": [
-        "ylfjuk",
-        "config",
-        "prettier",
-        "markdownlint"
-    ],
-    "devDependencies": {
-        "@trivago/prettier-plugin-sort-imports": "^5.2.2",
-        "prettier": "^3.5.3"
-    },
-    "peerDependencies": {
-        "@trivago/prettier-plugin-sort-imports": "^5.2.2",
-        "prettier": ">=3.0.0"
-    }
+	"name": "@ylfjuk/prettier",
+	"version": "0.0.1",
+	"keywords": [
+		"config",
+		"markdownlint",
+		"prettier",
+		"ylfjuk"
+	],
+	"license": "MIT",
+	"author": "YLfjuk",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/YLfjuk/configs.git",
+		"directory": "packages/prettier"
+	},
+	"exports": {
+		".": "./prettier.config.mjs"
+	},
+	"devDependencies": {
+		"@trivago/prettier-plugin-sort-imports": "^5.2.2",
+		"prettier": "^3.5.3"
+	},
+	"peerDependencies": {
+		"@trivago/prettier-plugin-sort-imports": "^5.2.2",
+		"prettier": ">=3.0.0"
+	}
 }

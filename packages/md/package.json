@@ -1,21 +1,21 @@
 {
-    "name": "@ylfjuk/md",
-    "version": "0.0.3",
-    "author": "YLfjuk",
-    "type": "module",
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/YLfjuk/configs.git",
-        "directory": "packages/md"
-    },
-    "exports": {
-        ".": "./.markdownlint.json"
-    },
-    "keywords": [
-        "ylfjuk",
-        "config",
-        "markdown",
-        "markdownlint"
-    ]
+	"name": "@ylfjuk/md",
+	"version": "0.0.3",
+	"keywords": [
+		"config",
+		"markdown",
+		"markdownlint",
+		"ylfjuk"
+	],
+	"license": "MIT",
+	"author": "YLfjuk",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/YLfjuk/configs.git",
+		"directory": "packages/md"
+	},
+	"type": "module",
+	"exports": {
+		".": "./.markdownlint.json"
+	}
 }

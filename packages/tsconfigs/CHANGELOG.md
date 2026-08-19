@@ -1,5 +1,11 @@
 # @ylfjuk/tsconfigs
 
+## 0.1.0
+
+### Minor Changes
+
+- Require TypeScript 7 for `@ylfjuk/tsconfigs`.
+
 ## 0.0.6
 
 ### Patch Changes

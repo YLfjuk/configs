@@ -1,6 +1,6 @@
-# @ylfjuk/prettier &middot; ![GitHub License](https://img.shields.io/github/license/ylfjuk/template-monorepo) ![NPM Version](https://img.shields.io/npm/v/%40ylfjuk/md?logo=prettier)
+# @ylfjuk/prettier &middot; ![GitHub License](https://img.shields.io/github/license/YLfjuk/configs) ![NPM Version](https://img.shields.io/npm/v/%40ylfjuk/prettier?logo=prettier)
 
-The prettier configs for `@YLfjuk` projects
+Legacy Prettier configuration for `@YLfjuk` projects.
 
 ## License
 

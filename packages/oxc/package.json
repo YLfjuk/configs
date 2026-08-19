@@ -1,0 +1,52 @@
+{
+	"name": "@ylfjuk/oxc",
+	"version": "0.0.1",
+	"keywords": [
+		"config",
+		"oxc",
+		"oxfmt",
+		"oxlint",
+		"ylfjuk"
+	],
+	"license": "MIT",
+	"author": "YLfjuk",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/YLfjuk/configs.git",
+		"directory": "packages/oxc"
+	},
+	"files": [
+		"dist",
+		"oxfmt.json",
+		"oxlint.json"
+	],
+	"type": "module",
+	"exports": {
+		".": "./dist/index.mjs",
+		"./oxfmt": "./dist/oxfmt.mjs",
+		"./oxlint": "./dist/oxlint.mjs",
+		"./oxlint/base": "./dist/oxlint/base.mjs",
+		"./oxlint/jsdoc": "./dist/oxlint/jsdoc.mjs",
+		"./oxlint/react": "./dist/oxlint/react.mjs",
+		"./oxlint/test": "./dist/oxlint/test.mjs",
+		"./oxlint/typescript": "./dist/oxlint/typescript.mjs",
+		"./package.json": "./package.json",
+		"./oxfmt.json": "./oxfmt.json",
+		"./oxlint.json": "./oxlint.json"
+	},
+	"scripts": {
+		"build": "tsdown",
+		"test": "node --test test/*.test.mjs"
+	},
+	"devDependencies": {
+		"oxfmt": "0.61.0",
+		"oxlint": "1.77.0"
+	},
+	"peerDependencies": {
+		"oxfmt": "^0.61.0",
+		"oxlint": "^1.77.0"
+	},
+	"engines": {
+		"node": "^20.19.0 || >=22.12.0"
+	}
+}
