@@ -12,8 +12,6 @@ jobs:
         steps:
             - name: Checkout repository
               uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
-              with:
-                  fetch-depth: 0
 
             - name: Set up Node.js
               uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5
@@ -23,9 +21,6 @@ jobs:
 
             - name: Enable Corepack
               run: corepack enable
-
-            - name: Fetch base branch
-              run: git fetch origin +main:main
 
             - name: Install dependencies
               run: pnpm install --frozen-lockfile

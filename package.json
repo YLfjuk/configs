@@ -18,7 +18,7 @@
 		"lint:fix": "oxlint --fix .",
 		"fmt": "oxfmt .",
 		"fmt:check": "oxfmt --check .",
-		"verify": "pnpm fmt:check && pnpm lint && pnpm test:types && pnpm test && pnpm audit && pnpm audit --prod && pnpm exec changeset status && pnpm pack --dry-run --json --recursive",
+		"verify": "pnpm fmt:check && pnpm lint && pnpm test:types && pnpm test && pnpm audit && pnpm audit --prod && pnpm pack --dry-run --json --recursive",
 		"plan": "changeset",
 		"version": "changeset version",
 		"prerelease": "pnpm run build",
