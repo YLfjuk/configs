@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 
-import { createOxfmtConfig } from "../dist/oxfmt.mjs";
+import { createOxfmtConfig } from "../src/oxfmt.js";
 
 test("adds only the project-specific formatter options requested", () => {
 	const config = createOxfmtConfig({

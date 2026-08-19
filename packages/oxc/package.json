@@ -1,6 +1,6 @@
 {
 	"name": "@ylfjuk/oxc",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"keywords": [
 		"config",
 		"oxc",
@@ -37,6 +37,10 @@
 	"scripts": {
 		"build": "tsdown",
 		"test": "node --test test/*.test.mjs"
+	},
+	"devDependencies": {
+		"oxfmt": "0.61.0",
+		"oxlint": "1.77.0"
 	},
 	"peerDependencies": {
 		"oxfmt": "^0.61.0",

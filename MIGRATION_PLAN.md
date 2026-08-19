@@ -2,8 +2,32 @@
 
 > Temporary implementation handoff. This file is safe to delete after the migration is complete.
 >
-> Status: planning approved in principle; implementation has not started. Do not publish, create a
-> release, change secrets, or modify npm settings without separate explicit approval.
+> Status: implementation in progress. Do not publish, create a release, change secrets, or modify
+> npm settings without separate explicit approval.
+
+## Current status
+
+Completed:
+
+- pnpm 11.20.0 workspace migration, lockfile, root engine requirements, and local-binary scripts;
+- TypeScript 7.0.2 migration and package-local tsconfig fixture checks;
+- root migration from Biome to Oxlint and Oxfmt, while retaining the legacy Biome package;
+- `@ylfjuk/oxc` static configurations, dynamic factories, source bridges, tsdown build, and focused
+  Oxfmt behavior tests;
+- repository-wide Oxfmt formatting/import-order pass and package manifest/file-allowlist hygiene;
+- documentation updates, including the new Oxc README;
+- direct `pnpm` audit checks with no reported vulnerabilities.
+
+Remaining:
+
+- validate packed tarballs in isolated consumer fixtures, including every documented Oxc ESM and JSON
+  export;
+- finalize release metadata and release changesets, including the intended initial Oxc version;
+- modernize CI and the release workflow (Node 24, pnpm, pinned actions, least permissions, and no
+  `NPM_TOKEN`);
+- run the final clean-room validation; and
+- after workflow review, configure npm trusted publishing manually. The first Oxc publication remains
+  subject to separate explicit approval.
 
 ## Objective
 

@@ -1,20 +1,14 @@
-name: Release
+name: CI
 
 on:
-    push:
-        branches:
-            - main
+    pull_request:
 
-concurrency: ${{ github.workflow }}-${{ github.ref }}
+permissions:
+    contents: read
 
 jobs:
-    release:
-        name: Release
+    validate:
         runs-on: ubuntu-latest
-        permissions:
-            contents: write
-            pull-requests: write
-            id-token: write
         steps:
             - name: Checkout repository
               uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
@@ -32,9 +26,3 @@ jobs:
 
             - name: Verify
               run: pnpm verify
-
-            - name: Create release pull request or publish to npm
-              id: changesets
-              uses: changesets/action@3841a0683d3cfa6dae0f9bb335290003010fe3f0 # v1.9.0
-              with:
-                  publish: pnpm release
