@@ -24,6 +24,9 @@ jobs:
             - name: Enable Corepack
               run: corepack enable
 
+            - name: Fetch base branch
+              run: git fetch origin +main:main
+
             - name: Install dependencies
               run: pnpm install --frozen-lockfile
 
